@@ -54,7 +54,14 @@ export const productData: ProductData = {
       id: "off-white",
       name: "Off-White",
       hex: "#F5F0E8",
-      images: Array.from({ length: 6 }, (_, i) => placeholderImg("F5F0E8", i + 1)),
+      images: [
+        "/src/assets/product-images/off-white/1.webp",
+        "/src/assets/product-images/off-white/2.webp",
+        "/src/assets/product-images/off-white/3.webp",
+        "/src/assets/product-images/off-white/4.webp",
+        "/src/assets/product-images/off-white/5.webp",
+        "/src/assets/product-images/off-white/5.webp"
+      ],
       swatchImage: "/src/assets/swatches/off-white.webp",
     },
     {
