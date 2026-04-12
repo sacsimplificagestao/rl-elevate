@@ -3,6 +3,7 @@ export interface ProductColor {
   name: string;
   hex: string;
   images: string[];
+  swatchImage: string;
 }
 
 export interface ProductSize {
@@ -54,36 +55,42 @@ export const productData: ProductData = {
       name: "Off-White",
       hex: "#F5F0E8",
       images: Array.from({ length: 6 }, (_, i) => placeholderImg("F5F0E8", i + 1)),
+      swatchImage: "/src/assets/swatches/off-white.webp",
     },
     {
       id: "black",
       name: "Black",
       hex: "#1A1A1A",
       images: Array.from({ length: 6 }, (_, i) => placeholderImg("1A1A1A", i + 1)),
+      swatchImage: "/src/assets/swatches/black.webp",
     },
     {
       id: "grey-marl",
       name: "Grey Marl",
       hex: "#B0AFA8",
       images: Array.from({ length: 6 }, (_, i) => placeholderImg("B0AFA8", i + 1)),
+      swatchImage: "/src/assets/swatches/grey-marl.webp",
     },
     {
       id: "camel",
       name: "Camel",
       hex: "#C4A77D",
       images: Array.from({ length: 6 }, (_, i) => placeholderImg("C4A77D", i + 1)),
+      swatchImage: "/src/assets/swatches/camel.jpeg",
     },
     {
       id: "hunter-navy",
       name: "Hunter Navy",
       hex: "#1B2A4A",
       images: Array.from({ length: 6 }, (_, i) => placeholderImg("1B2A4A", i + 1)),
+      swatchImage: "/src/assets/swatches/hunter-navy.jpeg",
     },
     {
       id: "sage-green",
       name: "Sage Green",
       hex: "#A8B5A0",
       images: Array.from({ length: 6 }, (_, i) => placeholderImg("A8B5A0", i + 1)),
+      swatchImage: "/src/assets/swatches/sage-green.webp",
     },
   ],
   sizes: [
