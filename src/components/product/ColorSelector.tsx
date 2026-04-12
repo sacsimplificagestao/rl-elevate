@@ -17,21 +17,23 @@ const ColorSelector = ({ colors, selectedColor, onColorChange }: ColorSelectorPr
         </span>
         <span className="text-xs font-body tracking-wide">{selected?.name}</span>
       </div>
-      <div className="flex gap-3">
+      <div className="flex gap-2">
         {colors.map((color) => (
           <button
             key={color.id}
             onClick={() => onColorChange(color.id)}
-            className={`w-14 h-14 rounded-sm border-2 transition-all duration-200 ${
+            className={`w-12 h-12 rounded-sm overflow-hidden transition-all duration-200 ${
               selectedColor === color.id
-                ? "border-primary"
-                : "border-transparent hover:border-border"
+                ? "ring-2 ring-primary ring-offset-2"
+                : "hover:ring-1 hover:ring-border hover:ring-offset-1"
             }`}
             aria-label={color.name}
           >
-            <div
-              className="w-full h-full rounded-[1px]"
-              style={{ backgroundColor: color.hex }}
+            <img
+              src={color.swatchImage}
+              alt={color.name}
+              className="w-full h-full object-cover"
+              loading="lazy"
             />
           </button>
         ))}
