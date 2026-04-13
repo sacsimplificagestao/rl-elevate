@@ -54,6 +54,7 @@ import greyMarl2 from "@/assets/product-images/grey-marl/2.webp";
 import greyMarl3 from "@/assets/product-images/grey-marl/3.webp";
 import greyMarl4 from "@/assets/product-images/grey-marl/4.webp";
 
+import offWhite1 from "@/assets/product-images/off-white/1.webp";
 import offWhite2 from "@/assets/product-images/off-white/2.webp";
 import offWhite3 from "@/assets/product-images/off-white/3.webp";
 import offWhite4 from "@/assets/product-images/off-white/4.webp";
