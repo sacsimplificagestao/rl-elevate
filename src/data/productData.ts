@@ -37,6 +37,19 @@ export interface ProductData {
   reviews: { average: number; count: number; items: ProductReview[] };
 }
 
+import swatchOffWhite from "@/assets/swatches/off-white.webp";
+import swatchBlack from "@/assets/swatches/black.webp";
+import swatchGreyMarl from "@/assets/swatches/grey-marl.webp";
+import swatchCamel from "@/assets/swatches/camel.jpeg";
+import swatchHunterNavy from "@/assets/swatches/hunter-navy.jpeg";
+import swatchSageGreen from "@/assets/swatches/sage-green.webp";
+
+import offWhite1 from "@/assets/product-images/off-white/1.webp";
+import offWhite2 from "@/assets/product-images/off-white/2.webp";
+import offWhite3 from "@/assets/product-images/off-white/3.webp";
+import offWhite4 from "@/assets/product-images/off-white/4.webp";
+import offWhite5 from "@/assets/product-images/off-white/5.webp";
+
 const placeholderImg = (color: string, n: number) =>
   `https://placehold.co/800x1000/${color}/ffffff?text=Image+${n}`;
 
