@@ -101,16 +101,6 @@ const Index = () => {
           />
         </div>
 
-        {/* Personalization */}
-        <div className="py-4 border-t border-border">
-          <button className="w-full flex items-center justify-between group">
-            <span className="text-[10px] font-body font-semibold tracking-luxury uppercase">
-              {productData.personalization.label} ({productData.personalization.price.toFixed(2).replace(".", ",")} {productData.currency})
-            </span>
-            <ChevronRight className="w-4 h-4 text-primary group-hover:translate-x-1 transition-transform" strokeWidth={1.5} />
-          </button>
-        </div>
-
         {/* Add to Bag (desktop) */}
         <div className="py-6 border-t border-border space-y-4">
           <button
