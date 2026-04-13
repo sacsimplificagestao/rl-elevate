@@ -6,7 +6,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background border-b border-border">
       <div className="flex items-center justify-between px-4 h-14 md:h-16 max-w-7xl mx-auto">
         <a href="/" className="flex-shrink-0 flex items-center">
-          <img src={logo} alt="Ralph Lauren" className="h-14 md:h-20 w-auto object-contain scale-[1.15] origin-left" />
+          <img src={logo} alt="Ralph Lauren" className="h-8 md:h-10 w-auto object-contain origin-left" />
         </a>
         <div className="flex items-center gap-5">
           <button aria-label="Search" className="text-primary">
