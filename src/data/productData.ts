@@ -60,6 +60,11 @@ import offWhite3 from "@/assets/product-images/off-white/3.webp";
 import offWhite4 from "@/assets/product-images/off-white/4.webp";
 import offWhite5 from "@/assets/product-images/off-white/5.webp";
 
+import camel1 from "@/assets/product-images/camel/1.webp";
+import camel2 from "@/assets/product-images/camel/2.webp";
+import camel3 from "@/assets/product-images/camel/3.webp";
+import camel4 from "@/assets/product-images/camel/4.webp";
+
 const placeholderImg = (color: string, n: number) =>
   `https://placehold.co/800x1000/${color}/ffffff?text=Image+${n}`;
 
