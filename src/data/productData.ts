@@ -79,7 +79,7 @@ export const productData: ProductData = {
       id: "black",
       name: "Black",
       hex: "#1A1A1A",
-      images: Array.from({ length: 6 }, (_, i) => placeholderImg("1A1A1A", i + 1)),
+      images: [black1, black2, black3, black4],
       swatchImage: swatchBlack,
     },
     {
