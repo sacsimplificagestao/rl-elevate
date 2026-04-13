@@ -44,6 +44,11 @@ import swatchCamel from "@/assets/swatches/camel.jpeg";
 import swatchHunterNavy from "@/assets/swatches/hunter-navy.jpeg";
 import swatchSageGreen from "@/assets/swatches/sage-green.webp";
 
+import black1 from "@/assets/product-images/black/1.webp";
+import black2 from "@/assets/product-images/black/2.webp";
+import black3 from "@/assets/product-images/black/3.webp";
+import black4 from "@/assets/product-images/black/4.webp";
+
 import offWhite1 from "@/assets/product-images/off-white/1.webp";
 import offWhite2 from "@/assets/product-images/off-white/2.webp";
 import offWhite3 from "@/assets/product-images/off-white/3.webp";
@@ -74,7 +79,7 @@ export const productData: ProductData = {
       id: "black",
       name: "Black",
       hex: "#1A1A1A",
-      images: Array.from({ length: 6 }, (_, i) => placeholderImg("1A1A1A", i + 1)),
+      images: [black1, black2, black3, black4],
       swatchImage: swatchBlack,
     },
     {
