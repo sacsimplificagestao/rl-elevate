@@ -126,7 +126,7 @@ const Index = () => {
 
           {/* Klarna */}
           <p className="text-xs font-body text-muted-foreground">
-            3 payments of <span className="font-semibold text-primary">81,66 {productData.currency}</span> at 0% interest with <span className="font-bold">Klarna</span>{" "}
+            3 payments of <span className="font-semibold text-primary">13,30 {productData.currency}</span> at 0% interest with <span className="font-bold">Klarna</span>{" "}
             <button className="underline underline-offset-2">Learn more</button>
           </p>
 

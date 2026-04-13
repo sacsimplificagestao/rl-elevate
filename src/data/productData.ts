@@ -71,7 +71,7 @@ const placeholderImg = (color: string, n: number) =>
 export const productData: ProductData = {
   name: "Cable-Knit Cotton Quarter-Zip Jumper",
   brand: "Polo Ralph Lauren",
-  price: 245.0,
+  price: 39.90,
   currency: "€",
   description:
     "This chunky-knit cotton layer features our iconic cable design and signature embroidered Pony.",
