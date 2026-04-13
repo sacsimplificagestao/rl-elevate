@@ -104,14 +104,14 @@ export const productData: ProductData = {
       id: "grey-marl",
       name: "Fawn Grey Heather",
       hex: "#B0AFA8",
-      images: [greyMarl1, greyMarl2, greyMarl3, greyMarl4],
+      images: [greyMarl2, greyMarl1, greyMarl3, greyMarl4],
       swatchImage: swatchGreyMarl,
     },
     {
       id: "camel",
       name: "Camel Melange",
       hex: "#C4A77D",
-      images: [camel1, camel2, camel3, camel4],
+      images: [camel2, camel1, camel3, camel4],
       swatchImage: swatchCamel,
     },
     {
