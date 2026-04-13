@@ -18,10 +18,6 @@ const SizeSelector = ({ sizes, selectedSize, onSizeChange }: SizeSelectorProps) 
         </button>
       </div>
 
-      <button className="text-xs font-body text-primary underline underline-offset-4 flex items-center gap-1 mb-1">
-        What's My Size?
-      </button>
-
       <div className="grid grid-cols-6 gap-2">
         {sizes.map((size) => (
           <button
