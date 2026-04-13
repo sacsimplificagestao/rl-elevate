@@ -49,6 +49,11 @@ import black2 from "@/assets/product-images/black/2.webp";
 import black3 from "@/assets/product-images/black/3.webp";
 import black4 from "@/assets/product-images/black/4.webp";
 
+import greyMarl1 from "@/assets/product-images/grey-marl/1.webp";
+import greyMarl2 from "@/assets/product-images/grey-marl/2.webp";
+import greyMarl3 from "@/assets/product-images/grey-marl/3.webp";
+import greyMarl4 from "@/assets/product-images/grey-marl/4.webp";
+
 import offWhite1 from "@/assets/product-images/off-white/1.webp";
 import offWhite2 from "@/assets/product-images/off-white/2.webp";
 import offWhite3 from "@/assets/product-images/off-white/3.webp";
@@ -86,7 +91,7 @@ export const productData: ProductData = {
       id: "grey-marl",
       name: "Grey Marl",
       hex: "#B0AFA8",
-      images: Array.from({ length: 6 }, (_, i) => placeholderImg("B0AFA8", i + 1)),
+      images: [greyMarl1, greyMarl2, greyMarl3, greyMarl4],
       swatchImage: swatchGreyMarl,
     },
     {
