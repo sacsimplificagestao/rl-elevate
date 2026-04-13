@@ -12,7 +12,7 @@ import Newsletter from "@/components/product/Newsletter";
 import Footer from "@/components/product/Footer";
 
 const Index = () => {
-  const [selectedColor, setSelectedColor] = useState(productData.colors[4].id); // Hunter Navy default
+  const [selectedColor, setSelectedColor] = useState(productData.colors[1].id); // Black default
   const [selectedSize, setSelectedSize] = useState<string | null>(null);
   const [wishlisted, setWishlisted] = useState(false);
 
