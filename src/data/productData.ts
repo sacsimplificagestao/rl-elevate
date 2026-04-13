@@ -69,6 +69,10 @@ import hunterNavy1 from "@/assets/product-images/hunter-navy/1.jpg";
 import hunterNavy2 from "@/assets/product-images/hunter-navy/2.jpg";
 import hunterNavy3 from "@/assets/product-images/hunter-navy/3.jpg";
 
+import sageGreen1 from "@/assets/product-images/sage-green/1.jpg";
+import sageGreen2 from "@/assets/product-images/sage-green/2.jpg";
+import sageGreen3 from "@/assets/product-images/sage-green/3.jpg";
+
 const placeholderImg = (color: string, n: number) =>
   `https://placehold.co/800x1000/${color}/ffffff?text=Image+${n}`;
 
@@ -121,7 +125,7 @@ export const productData: ProductData = {
       id: "sage-green",
       name: "Fern Green Heather",
       hex: "#A8B5A0",
-      images: Array.from({ length: 6 }, (_, i) => placeholderImg("A8B5A0", i + 1)),
+      images: [sageGreen1, sageGreen2, sageGreen3],
       swatchImage: swatchSageGreen,
     },
   ],
