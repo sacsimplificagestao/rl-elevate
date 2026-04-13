@@ -49,7 +49,11 @@ import black2 from "@/assets/product-images/black/2.webp";
 import black3 from "@/assets/product-images/black/3.webp";
 import black4 from "@/assets/product-images/black/4.webp";
 
-import offWhite1 from "@/assets/product-images/off-white/1.webp";
+import greyMarl1 from "@/assets/product-images/grey-marl/1.webp";
+import greyMarl2 from "@/assets/product-images/grey-marl/2.webp";
+import greyMarl3 from "@/assets/product-images/grey-marl/3.webp";
+import greyMarl4 from "@/assets/product-images/grey-marl/4.webp";
+
 import offWhite2 from "@/assets/product-images/off-white/2.webp";
 import offWhite3 from "@/assets/product-images/off-white/3.webp";
 import offWhite4 from "@/assets/product-images/off-white/4.webp";
