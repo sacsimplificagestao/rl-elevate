@@ -91,7 +91,7 @@ export const productData: ProductData = {
       id: "grey-marl",
       name: "Grey Marl",
       hex: "#B0AFA8",
-      images: Array.from({ length: 6 }, (_, i) => placeholderImg("B0AFA8", i + 1)),
+      images: [greyMarl1, greyMarl2, greyMarl3, greyMarl4],
       swatchImage: swatchGreyMarl,
     },
     {
