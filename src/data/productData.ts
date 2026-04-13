@@ -37,6 +37,19 @@ export interface ProductData {
   reviews: { average: number; count: number; items: ProductReview[] };
 }
 
+import swatchOffWhite from "@/assets/swatches/off-white.webp";
+import swatchBlack from "@/assets/swatches/black.webp";
+import swatchGreyMarl from "@/assets/swatches/grey-marl.webp";
+import swatchCamel from "@/assets/swatches/camel.jpeg";
+import swatchHunterNavy from "@/assets/swatches/hunter-navy.jpeg";
+import swatchSageGreen from "@/assets/swatches/sage-green.webp";
+
+import offWhite1 from "@/assets/product-images/off-white/1.webp";
+import offWhite2 from "@/assets/product-images/off-white/2.webp";
+import offWhite3 from "@/assets/product-images/off-white/3.webp";
+import offWhite4 from "@/assets/product-images/off-white/4.webp";
+import offWhite5 from "@/assets/product-images/off-white/5.webp";
+
 const placeholderImg = (color: string, n: number) =>
   `https://placehold.co/800x1000/${color}/ffffff?text=Image+${n}`;
 
@@ -54,50 +67,43 @@ export const productData: ProductData = {
       id: "off-white",
       name: "Off-White",
       hex: "#F5F0E8",
-      images: [
-        "/src/assets/product-images/off-white/1.webp",
-        "/src/assets/product-images/off-white/2.webp",
-        "/src/assets/product-images/off-white/3.webp",
-        "/src/assets/product-images/off-white/4.webp",
-        "/src/assets/product-images/off-white/5.webp",
-        "/src/assets/product-images/off-white/5.webp"
-      ],
-      swatchImage: "/src/assets/swatches/off-white.webp",
+      images: [offWhite1, offWhite2, offWhite3, offWhite4, offWhite5, offWhite5],
+      swatchImage: swatchOffWhite,
     },
     {
       id: "black",
       name: "Black",
       hex: "#1A1A1A",
       images: Array.from({ length: 6 }, (_, i) => placeholderImg("1A1A1A", i + 1)),
-      swatchImage: "/src/assets/swatches/black.webp",
+      swatchImage: swatchBlack,
     },
     {
       id: "grey-marl",
       name: "Grey Marl",
       hex: "#B0AFA8",
       images: Array.from({ length: 6 }, (_, i) => placeholderImg("B0AFA8", i + 1)),
-      swatchImage: "/src/assets/swatches/grey-marl.webp",
+      swatchImage: swatchGreyMarl,
     },
     {
       id: "camel",
       name: "Camel",
       hex: "#C4A77D",
       images: Array.from({ length: 6 }, (_, i) => placeholderImg("C4A77D", i + 1)),
-      swatchImage: "/src/assets/swatches/camel.jpeg",
+      swatchImage: swatchCamel,
     },
     {
       id: "hunter-navy",
       name: "Hunter Navy",
       hex: "#1B2A4A",
       images: Array.from({ length: 6 }, (_, i) => placeholderImg("1B2A4A", i + 1)),
-      swatchImage: "/src/assets/swatches/hunter-navy.jpeg",
+      swatchImage: swatchHunterNavy,
     },
     {
       id: "sage-green",
       name: "Sage Green",
       hex: "#A8B5A0",
       images: Array.from({ length: 6 }, (_, i) => placeholderImg("A8B5A0", i + 1)),
-      swatchImage: "/src/assets/swatches/sage-green.webp",
+      swatchImage: swatchSageGreen,
     },
   ],
   sizes: [
