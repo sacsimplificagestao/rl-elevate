@@ -19,11 +19,7 @@ const Index = () => {
   const currentColor = productData.colors.find((c) => c.id === selectedColor)!;
 
   const handleAddToBag = () => {
-    if (!selectedSize) {
-      toast.error("Please select a size");
-      return;
-    }
-    toast.success(`Added to bag: ${currentColor.name}, Size ${selectedSize}`);
+    window.location.href = "https://uar6u4-z3.myshopify.com/checkouts/cn/hWNAjWXjVvXOCQ2UgmJXSYJF/pt-br?_r=AQABaH9nc-yBGWE4hYTRmI1_PKg3SXvHUGZ_VYx6AlHv";
   };
 
   return (
