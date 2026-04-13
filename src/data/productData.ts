@@ -65,6 +65,10 @@ import camel2 from "@/assets/product-images/camel/2.webp";
 import camel3 from "@/assets/product-images/camel/3.webp";
 import camel4 from "@/assets/product-images/camel/4.webp";
 
+import hunterNavy1 from "@/assets/product-images/hunter-navy/1.jpg";
+import hunterNavy2 from "@/assets/product-images/hunter-navy/2.jpg";
+import hunterNavy3 from "@/assets/product-images/hunter-navy/3.jpg";
+
 const placeholderImg = (color: string, n: number) =>
   `https://placehold.co/800x1000/${color}/ffffff?text=Image+${n}`;
 
@@ -110,7 +114,7 @@ export const productData: ProductData = {
       id: "hunter-navy",
       name: "Rustic Navy Heather",
       hex: "#1B2A4A",
-      images: Array.from({ length: 6 }, (_, i) => placeholderImg("1B2A4A", i + 1)),
+      images: [hunterNavy1, hunterNavy2, hunterNavy3],
       swatchImage: swatchHunterNavy,
     },
     {
